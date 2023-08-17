@@ -89,8 +89,6 @@ class SettingsPageState extends State<SettingsPage> {
                             ),
                           ),
 
-
-
                           Padding(
                             padding: const EdgeInsets.only(top: 5, left: 30),
                             child: SizedBox(
@@ -103,7 +101,7 @@ class SettingsPageState extends State<SettingsPage> {
                         ],
                       ),
                       onPressed: () {
-                        // Navigator.pushNamed(context, 'signup_personalizing_page');
+                        Navigator.pushNamed(context, 'dashboard_page1');
                       },
                     ),
                   ),
@@ -151,7 +149,7 @@ class SettingsPageState extends State<SettingsPage> {
 
 
                           Padding(
-                            padding: const EdgeInsets.only(top: 5, left: 30),
+                            padding: const EdgeInsets.only(top: 5, left: 85),
                             child: SizedBox(
                               height: 55,
                               width: 55,
@@ -162,7 +160,7 @@ class SettingsPageState extends State<SettingsPage> {
                         ],
                       ),
                       onPressed: () {
-                        // Navigator.pushNamed(context, 'signup_personalizing_page');
+                        Navigator.pushNamed(context, 'profile_page');
                       },
                     ),
                   ),
@@ -211,7 +209,7 @@ class SettingsPageState extends State<SettingsPage> {
 
 
                           Padding(
-                            padding: const EdgeInsets.only(top: 5, left: 30),
+                            padding: const EdgeInsets.only(top: 5, left: 69),
                             child: SizedBox(
                               height: 55,
                               width: 55,
@@ -222,7 +220,7 @@ class SettingsPageState extends State<SettingsPage> {
                         ],
                       ),
                       onPressed: () {
-                        // Navigator.pushNamed(context, 'signup_personalizing_page');
+                        Navigator.pushNamed(context, 'support_page');
                       },
                     ),
                   ),
@@ -270,7 +268,7 @@ class SettingsPageState extends State<SettingsPage> {
 
 
                           Padding(
-                            padding: const EdgeInsets.only(top: 5, left: 30),
+                            padding: const EdgeInsets.only(top: 5, left: 90),
                             child: SizedBox(
                               height: 55,
                               width: 55,
@@ -340,7 +338,7 @@ class SettingsPageState extends State<SettingsPage> {
                         ],
                       ),
                       onPressed: () {
-                        // Navigator.pushNamed(context, 'signup_personalizing_page');
+                        Navigator.pushNamed(context, 'terms_of_service_page');
                       },
                     ),
                   ),
@@ -386,7 +384,7 @@ class SettingsPageState extends State<SettingsPage> {
                         ],
                       ),
                       onPressed: () {
-                        // Navigator.pushNamed(context, 'signup_personalizing_page');
+                        Navigator.pushNamed(context, 'main_intro_page');
                       },
                     ),
                   ),
